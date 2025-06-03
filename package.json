@@ -1,0 +1,12 @@
+{
+  "name": "pw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Caio Balieiro <caiobalieiro676@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29"
+  },
+  "scripts": {}
+}
