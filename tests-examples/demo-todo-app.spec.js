@@ -63,7 +63,7 @@ test.describe('New Todo', () => {
     // Check test using different methods.
     await expect(page.getByText('3 items left')).toBeVisible();
     await expect(todoCount).toHaveText('3 items left');
-    await expect(todoCount).toContainText('3');
+    await expect(todoCount).toContainText('222');
     await expect(todoCount).toHaveText(/3/);
 
     // Check all items in one call.
