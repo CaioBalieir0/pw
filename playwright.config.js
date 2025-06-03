@@ -12,7 +12,7 @@ export default defineConfig({
   workers: 1,
   reporter: 'blob',
   use: {
-    trace: 'on',
+    trace: 'retain-on-failure',
     video: 'on',
   },
 });
