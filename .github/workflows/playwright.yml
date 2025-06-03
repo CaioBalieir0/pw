@@ -20,7 +20,7 @@ jobs:
       - name: Install Playwright Browsers
         run: yarn playwright install --with-deps
       - name: Run Playwright tests (shard ${{ matrix.shardIndex }})
-        run: yarn playwright test example --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
+        run: yarn playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
 
       - name: Upload blob report to GitHub Actions Artifacts
         if: ${{ !cancelled() }}
