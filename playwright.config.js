@@ -12,6 +12,7 @@ export default defineConfig({
   workers: 1,
   reporter: 'blob',
   use: {
-    trace: 'on-first-retry',
+    trace: 'on',
+    video: 'on',
   },
 });
