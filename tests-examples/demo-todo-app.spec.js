@@ -36,10 +36,8 @@ test.describe('New Todo', () => {
     await checkNumberOfTodosInLocalStorage(page, 2);
   });
 
-  test('should clear text input field when an item is added', async ({
-    page,
-  }) => {
-    await expect(page).toHaveTitle(/Playwright/);
+  test('TESTE PARA FALHAR', async ({ page }) => {
+    await expect(page.getByText('Caio Balieiro')).toBeVisible();
   });
 });
 
